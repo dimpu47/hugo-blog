@@ -16,7 +16,7 @@
 title: Gaurav's bloG
 email: dimpu47@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This blog displays thoughts, opinions and resources about various interests and topics of blog author
+  This is pesronal blogging website for learning & documenting on various interests/topics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gkztweet
