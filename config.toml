@@ -1,4 +1,4 @@
-baseurl = "https://dimpu47.github.io"
+baseurl = "https://dimpu47.github.io/dimpu47.github.io"
 # builddrafts = false
 title = "My New Hugo Site"
 theme = "cocoa"
@@ -11,13 +11,14 @@ pygmentsuseclasses = true
 builddrafts = false
 canonifyurls = true
 pluralizelisttitles = false
+canonifyURLs = true
 [permalinks]
 fixed = ":title/"
 blog = "blog/:slug/"
 
 [params]
 author = "Gaurav Choudhary"
-email = "you@example.space"
+email = "dimpu47@gmail.com"
 faviconfile = "img/favicon.ico"
 github = "//github.com/dimpu47"
 highlightjs = true
