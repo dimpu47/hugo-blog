@@ -1,4 +1,4 @@
-baseurl = "https://dimpu47.github.io/dimpu47.github.io"
+baseurl = "https://dimpu47.github.io/"
 # builddrafts = false
 title = "My New Hugo Site"
 theme = "cocoa"
