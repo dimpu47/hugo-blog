@@ -1,0 +1,29 @@
+baseurl = "https://dimpu47.github.io"
+# builddrafts = false
+title = "My New Hugo Site"
+theme = "cocoa"
+languageCode = "en-us"
+author = "Gaurav Choudhary"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+pygmentsuseclasses = true
+builddrafts = false
+canonifyurls = true
+pluralizelisttitles = false
+[permalinks]
+fixed = ":title/"
+blog = "blog/:slug/"
+
+[params]
+author = "Gaurav Choudhary"
+email = "you@example.space"
+faviconfile = "img/favicon.ico"
+github = "//github.com/dimpu47"
+highlightjs = true
+linkedin = "//linkedin.com/in/gaurawesome"
+extracssfiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "Don't panic"
+lang = "en"
