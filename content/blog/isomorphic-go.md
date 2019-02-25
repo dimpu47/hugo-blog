@@ -18,7 +18,7 @@ isomorphic webapps are when server and client share some common data with each o
 
 ### why should i care ?
 
-because it companies like Bloomberg, Netflix, Airbnb, Google, Facebook have accepted isomorphic web application with good reason -- **better financial outcomes**.
+because IT companies like Bloomberg, Netflix, Airbnb, Google, Facebook have accepted isomorphic web application with good reason -- **better financial outcomes**.
 
 There's been studies ( [obviously] (https://www.globaldots.com/how-website-speed-affects-conversion-rates/) ) around how website's speed affect revenues made by visitors, i.e. **webapp's latency ∞ conversion rates** !
 
