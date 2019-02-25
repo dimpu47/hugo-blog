@@ -9,7 +9,7 @@ theme               = "cocoa"
 author              = "Gaurav Choudhary"
 title               = "Gaurverb"
 pygmentsuseclasses  = true
-disqusshortname     = "gaurverb" # Comment out to disable Disqus.
+# disqusshortname     = "gaurverb" # Comment out to disable Disqus.
 pluralizelisttitles = false
 googleAnalytics     = "UA-123-45"
 
