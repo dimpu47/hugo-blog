@@ -1,6 +1,6 @@
 +++
-date = "2016-12-17T15:07:32+05:30"
-title = "my new post"
+date = "2016-01-19T15:07:32+05:30"
+title = "Lorem Ipsum Dolor"
 draft = false
 +++
 
