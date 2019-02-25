@@ -10,7 +10,7 @@ author              = "Gaurav Choudhary"
 title               = "Gaurverb"
 pygmentsuseclasses  = true
 # disqusshortname     = "gaurverb" # Comment out to disable Disqus.
-pluralizelisttitles = false
+pluralizelisttitles = true
 googleAnalytics     = "UA-123-45"
 
 [permalinks]
