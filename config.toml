@@ -1,4 +1,4 @@
-baseurl             = "https://you.github.io/"
+baseurl             = "https://dimpu47.github.io/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
