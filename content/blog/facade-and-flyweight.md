@@ -1,14 +1,10 @@
 +++
 date = "2019-02-22T17:09:14-05:00"
 draft = false
-title = "facade and flyweight in Go."
+title = "Facade and Flyweight in Go."
 slug = 'facade-and-flyweight'
 +++
 
-#### what? what're you takin 'bout?
+## Facade and Flyweight in Go.
 
-Data Structures Or rather data structural patterns.
-
-#### why do people even learn data structures ?
-
-Because that's how you store or manipulate data in memory.
+These are two data structral pattern in any application, I'll be practing how to write them principles in Go.
