@@ -25,3 +25,5 @@ When establishing connection, client sends an HTTP Upgrade Header to switch from
 - Return *Unexported types* via *Exported interfaces*.
 
 > [**OWASP Testing Guide for Websockets**] (https://github.com/OWASP/OWASP-Testing-Guide-v5/blob/master/document/4%20Web%20Application%20Security%20Testing/4.12%20Client%20Side%20Testing/4.12.10%20Testing%20WebSockets%20(OTG-CLIENT-010).md) -- Not covered here but useful.
+
+_p.s: this is currently being refactored. consider it **wip**._

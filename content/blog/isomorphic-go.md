@@ -23,3 +23,5 @@ IT companies like Bloomberg, Netflix, Airbnb, Google, Facebook have accepted iso
 There's been [studies](https://www.globaldots.com/how-website-speed-affects-conversion-rates/) around how website's speed affect revenues made by visitors, i.e. **webapp's latency ∞ conversion rates** !
 
 and if my client and server share some data/functionality, i'm probably going to see lower latency. Makes sense, right? [isomorphic-go](https://go.isomorphicgo.org/) is caring 'bout your end users as well as your business outcomes.
+
+_p.s: this is **wip**._

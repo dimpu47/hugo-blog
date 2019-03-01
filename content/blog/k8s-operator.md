@@ -7,3 +7,5 @@ slug = 'k8s-operator'
 
 ### Operators
 *Operators* makes it easy to incorporte ops knowledge in k8s native resource.
+
+_p.s: this is **wip**._

@@ -19,4 +19,4 @@ Basically you would have done these things:
 - Add custom API servers.
 - Self provisioning of services with K8s service catalog.
 
-I could've covered [operators](/blog/k8s-operator/)
+These according to me are core concept to extend k8s API, although coreos had introduced a concept of [operators](/blog/k8s-operator) which is another way to automate packaging, deploying and managing k8s custom resources with domain expertise required for such a resource.
