@@ -83,7 +83,7 @@
 baseURL = "https://dimpu47.github.io"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Gaurav's Shit Load of Crap!"
+title = "gaurolog"
 theme = "hermit"
 # enableGitInfo = true
 pygmentsCodefences  = true
@@ -159,5 +159,5 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   [[menu.main]]
     name = "About"
-    url = "about-hugo/"
+    url = "about/"
     weight = 20

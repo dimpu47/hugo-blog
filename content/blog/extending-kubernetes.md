@@ -19,3 +19,4 @@ Basically you would have done these things:
 - Add custom API servers.
 - Self provisioning of services with K8s service catalog.
 
+I could've covered [operators](/blog/k8s-operator/)
