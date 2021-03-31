@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://dimpu47.github.io/sitemap.xml
