@@ -5,3 +5,9 @@
 [submodule "themes/hermit"]
 	path = themes/hermit
 	url = https://github.com/Track3/hermit.git
+[submodule "https://github.com/nishanths/cocoa-hugo-theme.git"]
+	path = themes/cocoa
+	url  = https://github.com/nishanths/cocoa-hugo-theme.git 
+[submodule "https://github.com/ribice/kiss.git"]
+	path = themes/kiss
+	url  = https://github.com/ribice/kiss.git
