@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Gaurav Choudhary">
+<meta name="description" content="How do you extend k8s or why would you want to ? Answering the why is easy, because it allows you to create custom resources, reconciliation loop to control or manage it according to your own rules and expertise on your own custom resource.
+the how? will take a bit longer and will be covered in this article.
+Basically you would have done these things:
+ Create a custom object in K8s.">
+
+<meta property="og:title" content="Extending Kubernetes" />
+<meta property="og:description" content="How do you extend k8s or why would you want to ? Answering the why is easy, because it allows you to create custom resources, reconciliation loop to control or manage it according to your own rules and expertise on your own custom resource.
+the how? will take a bit longer and will be covered in this article.
+Basically you would have done these things:
+ Create a custom object in K8s." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dimpu47.github.io/posts/extending-kubernetes/" />
+<meta property="article:published_time" content="2019-02-02T17:09:14-05:00"/>
+<meta property="article:modified_time" content="2019-02-02T17:09:14-05:00"/>
+
+
+<title>
+
+
+     Extending Kubernetes 
+
+</title>
+<link rel="canonical" href="https://dimpu47.github.io/posts/extending-kubernetes/">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/pygments.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="/img/favicon.ico"
+
+>
+
+
+
+
+
+
+
+
+</head>
+
+
+<body lang="">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                
+                <a href="/"><img class="avatar" src="/img/penguin.png" srcset="https://dimpu47.github.io/img/penguin.png 1x"></a>
+            
+            <a href="/"><div class="name">Gaurav Choudhary</div></a>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-"><a href="https://dimpu47.github.io/posts/"><span>Posts</span></a></li>
+                    
+                        <li class="nav-"><a href="https://dimpu47.github.io/about/"><span>About</span></a></li>
+                    
+                        <li class="nav-"><a href="https://dimpu47.github.io/code/"><span>Code</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+        
+
+        
+
+        
+
+	
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        </div>
+    </div>
+</section>
+
+<section class="main">
+    <div class="container">
+        <div class="content">
+            <div class="page-heading">
+
+    Extending Kubernetes
+
+</div>
+
+            <div class="markdown">
+                
+
+<h3 id="how-do-you-extend-k8s-or-why-would-you-want-to">How do you extend k8s or why would you want to ?</h3>
+
+<p>Answering the why is easy, because it allows you to create custom resources, reconciliation loop to control or manage it according to your own rules and expertise on your own custom resource.</p>
+
+<p>the how? will take a bit longer and will be covered in this article.</p>
+
+<p>Basically you would have done these things:</p>
+
+<ul>
+<li>Create a custom object in K8s.</li>
+<li>Create controller for custom object.</li>
+<li>Add custom API servers.</li>
+<li>Self provisioning of services with K8s service catalog.</li>
+</ul>
+
+<p>These according to me are core concept to extend k8s API, although coreos had introduced a concept of <a href="/blog/k8s-operator">operators</a> which is another way to automate packaging, deploying and managing k8s custom resources with domain expertise required for such a resource.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
