@@ -1,5 +1,5 @@
 +++
-date = "2019-02-02T17:09:14-05:00"
+date = "2020-02-02T17:09:14-05:00"
 draft = false
 title = "Extending Kubernetes"
 slug = 'extending-kubernetes'

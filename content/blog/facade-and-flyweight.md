@@ -1,5 +1,5 @@
 +++
-date = "2019-02-22T17:09:14-05:00"
+date = "2019-12-22T17:09:14-05:00"
 draft = false
 title = "Structural Patterns in Go."
 slug = 'facade-and-flyweight'
@@ -22,5 +22,5 @@ As an example we'll create remote proxy, that'll be a cache of objects, before a
 Let's say we wrap an imaginary database in slice with our proxy pattern. Then we have to stick to following points:
 - all access to database user will done via Proxy Type.
 - A stack of `n` no. of users will be kept in Proxy.
-- If a user exitst in stack, don't query db and return store result
+- If a user exist in stack, don't query db and return stored result
 - If queried user doesn't exist, query the db, delete the oldest user if it exists and store the new one in stack

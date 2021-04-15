@@ -1,5 +1,5 @@
 +++
-date = "2019-02-24T15:07:32+05:30"
+date = "2020-06-24T15:07:32+05:30"
 title = "Operators in Go or Ansible."
 draft = false
 slug = 'k8s-operator'
